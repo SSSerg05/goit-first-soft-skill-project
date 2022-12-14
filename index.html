@@ -6,7 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
+<style>
+    * {
+        margin: 0 auto;
+    }
+    .container {
+        width: 600px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    h1, h2 {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .btn-list {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .btn-list .item { 
+        margin: 15px;
+    }
+    .center { text-align: center;}
+
+
+    .btn {
+        min-width: 100px;
+        min-height: 40px;
+
+        color: navy;
+        background-color: azure;
+        padding: 24px, 12px;
+    }
+    .btn:active,
+    .btn:hover {
+        color: black;
+        background-color: tomato;
+    }
+
+
+</style>
+
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="center">Зроби це зараз</h1>
+                <h2 class="center" hidden>Навігація</h2>
+                <div class="navigation">
+                    <ul class="btn-list">
+                        <li class="item"><button class="btn" type="button" id="01">01</button></li>
+                        <li class="item"><button class="btn" type="button" id="02">02</button></li>
+                        <li class="item"><button class="btn" type="button" id="03">03</button></li>
+                        <li class="item"><button class="btn" type="button" id="04">04</button></li>
+                        <li class="item"><button class="btn" type="button" id="05">05</button></li>
+                        <li class="item"><button class="btn" type="button" id="06">06</button></li>
+                        <li class="item"><button class="btn" type="button" id="07">07</button></li>
+                        <li class="item"><button class="btn" type="button" id="08">08</button></li>
+                        <li class="item"><button class="btn" type="button" id="09">09</button></li>
+                        <li class="item"><button class="btn" type="button" id="10">10</button></li>
+                        <li class="item"><button class="btn" type="button" id="11">11</button></li>
+                        <li class="item"><button class="btn" type="button" id="12">12</button></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="tz">
+            <div class="container">
+                <h2 class="center">ТЗ #1. Створення макету сторінки глави</h2>
+                <ol>
+                    <li><p>Вибрати кнопку та змінити надпис на кнопці на своє ім'я</p></li>
+                    <li><p>Створити каталог за номером id кнопки</p></li>
+                    <li><p>Вибрати главу книги</p></li>
+                    <li><p>Створити html сторінку у своїй папці(id вашої кнопки) з назвою файлу за номером глави</p></li>
+                    <li><p>Продумати та створити структуру папок для функціонування вашої сторінки(images, css, ...)</p></li>
+                    <li><p>Продумати дизайн та створити структуру розмітки згідно початкового макету</p></li>
+                    <li><p>Придумати та вставити на сторінку логотип групи (макс висота картинки 240px)</p></li>
+                    <li><p>Зробити макет вибраної глави (блоки: Номер глави,
+                           Заголовок, Підзаголовки, Текст, Висновки, картинку жабки та 
+                           висловлення жабки)</p></li>
+                    <li><p>Зробити остаточний варіант дизайну сторінки</p></li>
+                </ol>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
