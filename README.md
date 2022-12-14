@@ -42,4 +42,4 @@
 <h2>footer</h2>
 <h3>назва/логотип групи і коли розроблено</h3>
 
-<a htref="https://www.figma.com/file/ops77rCxraCSosacOWumOT/Do-It-Now?node-id=0%3A1&t=FrEdi2WKfI5BqMGW-0">Проект на фігмі</a>
+<a htref="https://www.figma.com/file/ops77rCxraCSosacOWumOT/Do-It-Now?node-id=4%3A46&t=iN3F2ZFvvYjMDj9C-0">Проект на фігмі</a>
