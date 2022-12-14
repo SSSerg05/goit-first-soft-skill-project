@@ -41,3 +41,5 @@
 
 <h2>footer</h2>
 <h3>назва/логотип групи і коли розроблено</h3>
+
+<iframe+style%3D"border%3A+1px+solid+rgba(0%2C+0%2C+0%2C+0.1)%3B"+width%3D"800"+height%3D"450"+src%3D"https%3A%2F%2Fwww.figma.com%2Fembed%3Fembed_host%3Dshare%26url%3Dhttps%253A%252F%252Fwww.figma.com%252Ffile%252Fops77rCxraCSosacOWumOT%252FDo-It-Now%253Fnode-id%253D4%25253A46%2526t%253DOJS15xRvBiqw9nah-1"+allowfullscreen>
