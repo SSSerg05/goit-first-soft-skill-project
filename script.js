@@ -1,18 +1,19 @@
 
 let btnList = document.querySelectorAll(".btn");
 
-function f1() {
+// Додаємо обробчик події клік на кнопку та відкриття потрібної строрінки
+function addEventClick() {
     for (let item of btnList) {
-        let file = "./" + item.id + "/page.html";
+        let file = "./" + item.id + "/page-" + item.id + ".html";
         try {
             item.addEventListener('click', () => { document.open(file,"","")});    
         } catch (error) {
-            
+            alert("Каталог або сторінка не строрено або має не вірний формат(Приклад - ./04/page-04.html)");    
         }
     }
 }
 
-f1();
+addEventClick();
 
 
  
